@@ -3,52 +3,211 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SHURDHAJ SH.P.K.</title>
+  <title>SHURDHAJ SH.P.K. - Punime Ndërtimore dhe Gërmime</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="hero">
-    <div class="container">
-      <h1>SHURDHAJ SH.P.K.</h1>
-      <p class="subtitle">
-        Kompani e specializuar në punime ndërtimore dhe gërmime, me cilësi të lartë dhe korrektësi maksimale.
-      </p>
-      <a href="#sherbimet" class="btn">Shikoni shërbimet</a>
+  <header class="main-header">
+    <div class="container header-inner">
+      <a href="#hero" class="brand-logo-link">
+        <img src="fotot/logo.png" alt="SHURDHAJ SH.P.K." class="brand-logo">
+      </a>
+      <nav class="main-nav">
+        <a href="#hero">Ballina</a>
+        <a href="#about">Rreth Nesh</a>
+        <a href="#services">Shërbimet</a>
+        <a href="#gallery">Galeria</a>
+        <a href="#contact">Kontakt</a>
+      </nav>
+      <a href="#contact" class="nav-btn">Na Kontaktoni</a>
     </div>
   </header>
 
+  <section id="hero" class="hero-section">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <div class="hero-copy">
+        <span class="eyebrow">Kompania juaj e besueshme e gërmimeve</span>
+        <h1>Shërbime profesionale ndërtimi dhe gërmime me bager</h1>
+        <p>SHURDHAJ SH.P.K. ofron punime komplekse me cilësi të lartë, siguri maksimale dhe përfundim në afat. Ne realizojmë themele, nivelim terreni, transport dhe infrastrukturë me profesionalizëm.</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Na Kontaktoni</a>
+          <a href="#services" class="btn btn-secondary">Shih shërbimet</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-card">
+          <p class="hero-card-label">PREMIUM BUILD</p>
+          <h2>Makineri moderne & punë të shkëlqyer</h2>
+          <p>Ekspertizë në gërmime, transport dhe punime infrastrukturore.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <main>
-    <section class="about">
-      <div class="container">
-        <h2>Rreth nesh</h2>
-        <p>
-          Shurdhaj SH.P.K. ofron shërbime profesionale në fushën e ndërtimit dhe gërmimeve, duke punuar me
-          makineri moderne dhe staf të përkushtuar. Garantojmë punë të shpejtë, të sigurt dhe me standarde të larta.
-        </p>
+    <section id="about" class="section about-section">
+      <div class="container section-grid">
+        <div class="section-text">
+          <span class="section-tag">Rreth Nesh</span>
+          <h2>Ne krijojmë bazat e projekteve të suksesshme</h2>
+          <p>SHURDHAJ SH.P.K. është një kompani e specializuar në punime ndërtimore dhe gërmime me bager. Me një ekip të përkushtuar dhe makineri moderne, ofrojmë shërbime cilësore për themele, rrugë, transport dhe infrastrukturë. Ne mbajmë standardet më të larta për sigurinë dhe dorëzojmë projekte brenda afatit.</p>
+        </div>
+        <div class="about-cards">
+          <article class="feature-card">
+            <span class="feature-icon">⛏️</span>
+            <h3>Makineri moderne</h3>
+            <p>Flota e pajisjeve tona është e përditësuar dhe e gatshme për çdo sfidë.</p>
+          </article>
+          <article class="feature-card">
+            <span class="feature-icon">🏗️</span>
+            <h3>Shërbime të integruara</h3>
+            <p>Nga gërmimi e deri tek transporti dhe përfundimi i infrastrukturës.</p>
+          </article>
+        </div>
       </div>
     </section>
 
-    <section id="sherbimet" class="services">
+    <section id="services" class="section services-section">
       <div class="container">
-        <h2>Shërbimet tona</h2>
-        <div class="service-grid">
-          <div class="service-card">Gërmime me bager</div>
-          <div class="service-card">Punime me kamionë</div>
-          <div class="service-card">Hapje dhe rregullim të rrugëve</div>
-          <div class="service-card">Gërmime për themele shtëpish dhe objektesh</div>
-          <div class="service-card">Nivelim dhe rregullim terreni</div>
-          <div class="service-card">Prishje objektesh</div>
-          <div class="service-card">Transport i dheut, zhavorrit, rërës dhe materialeve të ndryshme</div>
-          <div class="service-card">Punime për kanalizime dhe ujësjellës</div>
-          <div class="service-card">Punime për oborre, trotuare dhe infrastrukturë</div>
+        <div class="section-head">
+          <span class="section-tag">Shërbimet tona</span>
+          <h2>Puna që bëjmë me përkujdesje dhe profesionalizëm</h2>
+        </div>
+        <div class="services-grid">
+          <article class="service-card">
+            <span class="service-icon">🚜</span>
+            <h3>Gërmime me bager</h3>
+            <p>Shërbime të plota për gërmime të themeleve dhe terreneve të ndërlikuara.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-icon">🧱</span>
+            <h3>Hapje themelesh</h3>
+            <p>Punime të sakta dhe të fuqishme për themelet e çdo objekti.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-icon">🛤️</span>
+            <h3>Hapje rrugësh</h3>
+            <p>Rikonstruksione dhe hapje rrugësh lokale me planifikim të saktë.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-icon">⚙️</span>
+            <h3>Nivelim terreni</h3>
+            <p>Terrene të niveluara dhe të përgatitura për ndërtim dhe infrastrukturë.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-icon">🏗️</span>
+            <h3>Punime infrastrukturore</h3>
+            <p>Zgjidhje për rrjetet e ujësjellësit, kanalizimeve dhe infrastrukturen lokale.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-icon">🚚</span>
+            <h3>Transport me kamion</h3>
+            <p>Transport i materialeve dhe zhavorrit në mënyrë të sigurt dhe efikase.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-icon">🏚️</span>
+            <h3>Prishje objektesh</h3>
+            <p>Prishje të sigurta dhe pastrim i shpejtë i zonës së punës.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-icon">💧</span>
+            <h3>Kanalizime dhe ujësjellës</h3>
+            <p>Instalime të besueshme për sisteme uji dhe kanalizimi.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="section gallery-section">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag">Galeria</span>
+          <h2>Fotot e punimeve tona në terren</h2>
+        </div>
+        <div class="gallery-grid">
+          <div class="gallery-item"><img src="https://images.unsplash.com/photo-1517959105827-32571116483d?auto=format&fit=crop&w=900&q=80" alt="Bager në terren"></div>
+          <div class="gallery-item"><img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=900&q=80" alt="Punë me makineri të rënda"></div>
+          <div class="gallery-item"><img src="https://images.unsplash.com/photo-1601079871576-b6dc4a6c15d8?auto=format&fit=crop&w=900&q=80" alt="Bager duke gërmuar"></div>
+          <div class="gallery-item"><img src="https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?auto=format&fit=crop&w=900&q=80" alt="Puna me material dhe makineri"></div>
+          <div class="gallery-item"><img src="https://images.unsplash.com/photo-1581092335376-36f0fc805b61?auto=format&fit=crop&w=900&q=80" alt="Makineri ndërtimi në hapësirë"></div>
+          <div class="gallery-item"><img src="https://images.unsplash.com/photo-1577596129048-b0f1d2f6ce8d?auto=format&fit=crop&w=900&q=80" alt="Punime me excavator dhe terren"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reasons-section">
+      <div class="container section-grid">
+        <div class="reasons-intro">
+          <span class="section-tag">Pse të na zgjidhni</span>
+          <h2>Ne sjellim rezultate të sigurta dhe të shpejta</h2>
+          <p>SHURDHAJ SH.P.K. fokusohet në cilësi, profesionalizëm dhe përmirësim të çdo projekti që ndërtojmë.</p>
+        </div>
+        <div class="reasons-grid">
+          <article class="reason-card">
+            <h3>500+ Projekte</h3>
+            <p>Përvoja e madhe në realizim të projekteve komplekse.</p>
+          </article>
+          <article class="reason-card">
+            <h3>15+ Vite eksperiencë</h3>
+            <p>Ekip profesionist me eksperiencë të thellë në fushë.</p>
+          </article>
+          <article class="reason-card">
+            <h3>100% Klientë të kënaqur</h3>
+            <p>Shërbim i fokusuar në besueshmëri dhe komunikim të vazhdueshëm.</p>
+          </article>
+          <article class="reason-card">
+            <h3>Përfundim në afat</h3>
+            <p>Respektim i planit të punës dhe dorëzim sipas marrëveshjes.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <span class="section-tag">Kontakt</span>
+          <h2>Merrni ofertë paraprake tani</h2>
+          <p>Na kontaktoni për të diskutuar projektin tuaj dhe për të marrë një ofertë konkurruese.</p>
+          <div class="contact-cards">
+            <div class="contact-card">
+              <span>📞</span>
+              <h3>Telefon</h3>
+              <p>+383 49 000 000</p>
+            </div>
+            <div class="contact-card">
+              <span>✉️</span>
+              <h3>Email</h3>
+              <p>info@shurdhaj.com</p>
+            </div>
+            <div class="contact-card">
+              <span>📍</span>
+              <h3>Adresa</h3>
+              <p>Rruga e Industrisë 12, Prishtinë</p>
+            </div>
+          </div>
+        </div>
+        <div class="contact-map">
+          <div class="map-frame">
+            <p>Google Maps placeholder</p>
+          </div>
         </div>
       </div>
     </section>
   </main>
 
-  <footer class="footer">
-    <div class="container">
-      <p>SHURDHAJ SH.P.K. – Partneri juaj i besueshëm për çdo projekt ndërtimor.</p>
+  <footer class="footer-section">
+    <div class="container footer-inner">
+      <p>© 2026 SHURDHAJ SH.P.K. | Të gjitha të drejtat e rezervuara</p>
+      <div class="social-links">
+        <a href="#">LinkedIn</a>
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+      </div>
     </div>
   </footer>
 </body>
