@@ -1,219 +1,255 @@
 <!DOCTYPE html>
 <html lang="sq">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SHURDHAJ SH.P.K. - Punime Ndërtimore dhe Gërmime</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shurdhaj SH.P.K. - Ndërtojmë të ardhmen</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="main-header">
-    <div class="container header-inner">
-      <a href="#hero" class="brand-logo-link">
-        <img src="fotot/logo.png" alt="SHURDHAJ SH.P.K." class="brand-logo">
-      </a>
-      <input type="checkbox" id="nav-toggle" class="nav-toggle-input">
-      <label for="nav-toggle" class="nav-toggle" aria-label="Menu mobile">
-        <span></span>
-        <span></span>
-        <span></span>
-      </label>
-      <nav class="main-nav">
-        <a href="#hero">Ballina</a>
-        <a href="#about">Rreth Nesh</a>
-        <a href="#services">Shërbimet</a>
-        <a href="#gallery">Galeria</a>
-        <a href="#contact">Kontakt</a>
-      </nav>
-    </div>
-  </header>
+    <!-- Header / Navigation -->
+    <header class="header">
+        <div class="container header-inner">
+            <a href="#" class="logo">
+                <svg class="logo-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8 28 L20 8 L32 28 Z" fill="#F5C518" stroke="#F5C518" stroke-width="1.5"/>
+                    <rect x="14" y="20" width="12" height="10" fill="#1a1a1a"/>
+                    <circle cx="17" cy="32" r="3" fill="#F5C518"/>
+                    <circle cx="23" cy="32" r="3" fill="#F5C518"/>
+                </svg>
+                <span class="logo-text">SHURDHAJ<span class="logo-sub">SH.P.K.</span></span>
+            </a>
+            <nav class="nav">
+                <a href="#ballina" class="nav-link active">BALLINA</a>
+                <a href="#rreth" class="nav-link">RRETH NESH</a>
+                <a href="#sherbimet" class="nav-link">SHËRBIMET</a>
+                <a href="#projektet" class="nav-link">PROJEKTET</a>
+                <a href="#kontakti" class="nav-link">KONTAKTI</a>
+            </nav>
+            <button class="mobile-toggle" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
 
-  <section id="hero" class="hero-section">
-    <div class="hero-overlay"></div>
-    <div class="container hero-content">
-      <div class="hero-copy">
-        <span class="eyebrow">Kompania juaj e besueshme e gërmimeve</span>
-        <h1>Shërbime profesionale ndërtimi dhe gërmime me bager</h1>
-        <p>SHURDHAJ SH.P.K. ofron punime komplekse me cilësi të lartë, siguri maksimale dhe përfundim në afat. Ne realizojmë themele, nivelim terreni, transport dhe infrastrukturë me profesionalizëm.</p>
-        <div class="hero-actions">
-          <a href="#contact" class="btn btn-primary">Na Kontaktoni</a>
-          <a href="#services" class="btn btn-secondary">Shih shërbimet</a>
+    <!-- Hero Section -->
+    <section class="hero" id="ballina">
+        <div class="hero-bg"></div>
+        <div class="container hero-content">
+            <div class="hero-text"></div>
         </div>
-      </div>
-      <div class="hero-visual">
-        <div class="hero-card">
-          <p class="hero-card-label">PREMIUM BUILD</p>
-          <h2>Makineri moderne & punë të shkëlqyer</h2>
-          <p>Ekspertizë në gërmime, transport dhe punime infrastrukturore.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <main>
-    <section id="about" class="section about-section">
-      <div class="container section-grid">
-        <div class="section-text">
-          <span class="section-tag">Rreth Nesh</span>
-          <h2>Ne krijojmë bazat e projekteve të suksesshme</h2>
-          <p>SHURDHAJ SH.P.K. është një kompani e specializuar në punime ndërtimore dhe gërmime me bager. Me një ekip të përkushtuar dhe makineri moderne, ofrojmë shërbime cilësore për themele, rrugë, transport dhe infrastrukturë. Ne mbajmë standardet më të larta për sigurinë dhe dorëzojmë projekte brenda afatit.</p>
-        </div>
-        <div class="about-cards">
-          <article class="feature-card">
-            <span class="feature-icon">⛏️</span>
-            <h3>Makineri moderne</h3>
-            <p>Flota e pajisjeve tona është e përditësuar dhe e gatshme për çdo sfidë.</p>
-          </article>
-          <article class="feature-card">
-            <span class="feature-icon">🏗️</span>
-            <h3>Shërbime të integruara</h3>
-            <p>Nga gërmimi e deri tek transporti dhe përfundimi i infrastrukturës.</p>
-          </article>
-        </div>
-      </div>
     </section>
 
-    <section id="services" class="section services-section">
-      <div class="container">
-        <div class="section-head">
-          <span class="section-tag">Shërbimet tona</span>
-          <h2>Puna që bëjmë me përkujdesje dhe profesionalizëm</h2>
-        </div>
-        <div class="services-grid">
-          <article class="service-card">
-            <span class="service-icon">🚜</span>
-            <h3>Gërmime me bager</h3>
-            <p>Shërbime të plota për gërmime të themeleve dhe terreneve të ndërlikuara.</p>
-          </article>
-          <article class="service-card">
-            <span class="service-icon">🧱</span>
-            <h3>Hapje themelesh</h3>
-            <p>Punime të sakta dhe të fuqishme për themelet e çdo objekti.</p>
-          </article>
-          <article class="service-card">
-            <span class="service-icon">🛤️</span>
-            <h3>Hapje rrugësh</h3>
-            <p>Rikonstruksione dhe hapje rrugësh lokale me planifikim të saktë.</p>
-          </article>
-          <article class="service-card">
-            <span class="service-icon">⚙️</span>
-            <h3>Nivelim terreni</h3>
-            <p>Terrene të niveluara dhe të përgatitura për ndërtim dhe infrastrukturë.</p>
-          </article>
-          <article class="service-card">
-            <span class="service-icon">🏗️</span>
-            <h3>Punime infrastrukturore</h3>
-            <p>Zgjidhje për rrjetet e ujësjellësit, kanalizimeve dhe infrastrukturen lokale.</p>
-          </article>
-          <article class="service-card">
-            <span class="service-icon">🚚</span>
-            <h3>Transport me kamion</h3>
-            <p>Transport i materialeve dhe zhavorrit në mënyrë të sigurt dhe efikase.</p>
-          </article>
-          <article class="service-card">
-            <span class="service-icon">🏚️</span>
-            <h3>Prishje objektesh</h3>
-            <p>Prishje të sigurta dhe pastrim i shpejtë i zonës së punës.</p>
-          </article>
-          <article class="service-card">
-            <span class="service-icon">💧</span>
-            <h3>Kanalizime dhe ujësjellës</h3>
-            <p>Instalime të besueshme për sisteme uji dhe kanalizimi.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="gallery" class="section gallery-section">
-      <div class="container">
-        <div class="section-head">
-          <span class="section-tag">Galeria</span>
-          <h2>Fotot e punimeve tona në terren</h2>
-        </div>
-        <div class="gallery-grid">
-          <div class="gallery-item"><img src="https://images.unsplash.com/photo-1517959105827-32571116483d?auto=format&fit=crop&w=900&q=80" alt="Bager në terren"></div>
-          <div class="gallery-item"><img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=900&q=80" alt="Punë me makineri të rënda"></div>
-          <div class="gallery-item"><img src="https://images.unsplash.com/photo-1601079871576-b6dc4a6c15d8?auto=format&fit=crop&w=900&q=80" alt="Bager duke gërmuar"></div>
-          <div class="gallery-item"><img src="https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?auto=format&fit=crop&w=900&q=80" alt="Puna me material dhe makineri"></div>
-          <div class="gallery-item"><img src="https://images.unsplash.com/photo-1581092335376-36f0fc805b61?auto=format&fit=crop&w=900&q=80" alt="Makineri ndërtimi në hapësirë"></div>
-          <div class="gallery-item"><img src="https://images.unsplash.com/photo-1577596129048-b0f1d2f6ce8d?auto=format&fit=crop&w=900&q=80" alt="Punime me excavator dhe terren"></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section reasons-section">
-      <div class="container section-grid">
-        <div class="reasons-intro">
-          <span class="section-tag">Pse të na zgjidhni</span>
-          <h2>Ne sjellim rezultate të sigurta dhe të shpejta</h2>
-          <p>SHURDHAJ SH.P.K. fokusohet në cilësi, profesionalizëm dhe përmirësim të çdo projekti që ndërtojmë.</p>
-        </div>
-        <div class="reasons-grid">
-          <article class="reason-card">
-            <h3>500+ Projekte</h3>
-            <p>Përvoja e madhe në realizim të projekteve komplekse.</p>
-          </article>
-          <article class="reason-card">
-            <h3>15+ Vite eksperiencë</h3>
-            <p>Ekip profesionist me eksperiencë të thellë në fushë.</p>
-          </article>
-          <article class="reason-card">
-            <h3>100% Klientë të kënaqur</h3>
-            <p>Shërbim i fokusuar në besueshmëri dhe komunikim të vazhdueshëm.</p>
-          </article>
-          <article class="reason-card">
-            <h3>Përfundim në afat</h3>
-            <p>Respektim i planit të punës dhe dorëzim sipas marrëveshjes.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact" class="section contact-section">
-      <div class="container contact-grid">
-        <div class="contact-info">
-          <span class="section-tag">Kontakt</span>
-          <h2>Merrni ofertë paraprake tani</h2>
-          <p>Na kontaktoni për të diskutuar projektin tuaj dhe për të marrë një ofertë konkurruese.</p>
-          <div class="contact-cards">
-            <div class="contact-card">
-              <span>📞</span>
-              <h3>Telefon</h3>
-              <p>+383 49 000 000</p>
+    <!-- Services Section -->
+    <section class="services" id="sherbimet">
+        <div class="container">
+            <p class="section-label">SHËRBIMET TONA</p>
+            <h2 class="section-title">ÇFARË OFROJMË</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=600&h=400&fit=crop&q=80" alt="Gërmime me bager">
+                    </div>
+                    <h3>GËRMIME ME BAGER</h3>
+                    <div class="service-underline"></div>
+                </div>
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1601584115197-04ecc1da5d9a?w=600&h=400&fit=crop&q=80" alt="Transport materiali">
+                    </div>
+                    <h3>TRANSPORT MATERIALI</h3>
+                    <div class="service-underline"></div>
+                </div>
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&h=400&fit=crop&q=80" alt="Rrafshime tereni">
+                    </div>
+                    <h3>RRAFSHIME TERENI</h3>
+                    <div class="service-underline"></div>
+                </div>
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=600&h=400&fit=crop&q=80" alt="Punime themelesh">
+                    </div>
+                    <h3>PUNIME THEMELESH</h3>
+                    <div class="service-underline"></div>
+                </div>
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=600&h=400&fit=crop&q=80" alt="Prishje objektesh">
+                    </div>
+                    <h3>PRISHJE OBJEKTESH</h3>
+                    <div class="service-underline"></div>
+                </div>
             </div>
-            <div class="contact-card">
-              <span>✉️</span>
-              <h3>Email</h3>
-              <p>info@shurdhaj.com</p>
-            </div>
-            <div class="contact-card">
-              <span>📍</span>
-              <h3>Adresa</h3>
-              <p>Rruga e Industrisë 12, Prishtinë</p>
-            </div>
-          </div>
         </div>
-        <div class="contact-map">
-          <div class="map-frame">
-            <p>Google Maps placeholder</p>
-          </div>
-        </div>
-      </div>
     </section>
-  </main>
 
-  <footer class="footer-section">
-    <div class="container footer-inner">
-      <p>© 2026 SHURDHAJ SH.P.K. | Të gjitha të drejtat e rezervuara</p>
-      <div class="social-links">
-        <a href="#">LinkedIn</a>
-        <a href="#">Facebook</a>
-        <a href="#">Instagram</a>
-      </div>
-    </div>
-  </footer>
+    <!-- About Section -->
+    <section class="about" id="rreth">
+        <div class="container about-grid">
+            <div class="about-copy">
+                <p class="section-label">RRETH NESH</p>
+                <h2 class="section-title">KOMPANI E PËRVOJËS PËR PUNIME TË QËNDRUESHME</h2>
+                <p class="about-text">Ne jemi një ekip i fokusuar në cilësi, siguri dhe ekzekutim të shpejtë. Përmes punimeve tona të ndërtimit, gërmimeve dhe transportit, ofrojmë zgjidhje të besueshme për projekte të ndryshme.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects / Work Gallery -->
+    <section class="projects" id="projektet">
+        <div class="container">
+            <p class="section-label">PUNËT TONA</p>
+            <h2 class="section-title">PROJEKTE DHE PUNIME TË REALIZUARA</h2>
+            <div class="projects-grid">
+                <article class="project-card empty-card">
+                    <div class="project-info">
+                        <h3>Rrafshim terreni</h3>
+                    </div>
+                </article>
+                <article class="project-card empty-card">
+                    <div class="project-info">
+                        <h3>Gërmime me bager</h3>
+                    </div>
+                </article>
+                <article class="project-card empty-card">
+                    <div class="project-info">
+                        <h3>Punime themelesh</h3>
+                    </div>
+                </article>
+                <article class="project-card empty-card">
+                    <div class="project-info">
+                        <h3>Prishje dhe pastrim</h3>
+                    </div>
+                </article>
+                <article class="project-card empty-card">
+                    <div class="project-info">
+                        <h3>Punime në terren</h3>
+                    </div>
+                </article>
+                <article class="project-card empty-card">
+                    <div class="project-info">
+                        <h3>Transport materiali</h3>
+                    </div>
+                </article>
+                <article class="project-card empty-card">
+                    <div class="project-info">
+                        <h3>Përgatitje ndërtimi</h3>
+                    </div>
+                </article>
+                <article class="project-card empty-card">
+                    <div class="project-info">
+                        <h3>Puna me ekip</h3>
+                    </div>
+                </article>
+                <article class="project-card empty-card">
+                    <div class="project-info">
+                        <h3>Projekt i realizuar</h3>
+                    </div>
+                </article>
+                <article class="project-card empty-card">
+                    <div class="project-info">
+                        <h3>Zonë industriale</h3>
+                    </div>
+                </article>
+                <article class="project-card empty-card">
+                    <div class="project-info">
+                        <h3>Gërmime</h3>
+                    </div>
+                </article>
+                <article class="project-card empty-card">
+                    <div class="project-info">
+                        <h3>Puna e përfunduar</h3>
+                    </div>
+                </article>
+                <article class="project-card empty-card">
+                    <div class="project-info">
+                        <h3>Infrastrukturë</h3>
+                    </div>
+                </article>
+                <article class="project-card empty-card">
+                    <div class="project-info">
+                        <h3>Hapësirë e gjerë</h3>
+                    </div>
+                </article>
+                <article class="project-card empty-card">
+                    <div class="project-info">
+                        <h3>Kompletuar</h3>
+                    </div>
+                </article>
+                <article class="project-card empty-card">
+                    <div class="project-info">
+                        <h3>Projekt final</h3>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section" id="kontakti">
+        <div class="container map-grid">
+            <div class="map-content">
+                <p class="section-label">GJENDJEMI</p>
+                <h2 class="section-title">Na gjeni lehtësisht</h2>
+                <p class="about-text">Ne jemi të vendosur në Suharekë dhe jemi të gatshëm të bashkëpunojmë me klientët në të gjithë rajonin.</p>
+            </div>
+            <div class="map-card">
+                <iframe src="https://www.google.com/maps?q=Suhareke&z=13&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Harta e Suharekës"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div class="footer-item">
+                <span class="footer-icon">📍</span>
+                <div>
+                    <strong>Adresa</strong>
+                    <p>Suharekë, Kosovë</p>
+                </div>
+            </div>
+            <div class="footer-item">
+                <span class="footer-icon">📞</span>
+                <div>
+                    <strong>Telefoni</strong>
+                    <p>+383 49 123 456</p>
+                </div>
+            </div>
+            <div class="footer-item">
+                <span class="footer-icon">✉️</span>
+                <div>
+                    <strong>Email</strong>
+                    <p>info@shurdhajshpk.com</p>
+                </div>
+            </div>
+            <div class="footer-item">
+                <span class="footer-icon">🕐</span>
+                <div>
+                    <strong>Orari i punës</strong>
+                    <p>E Hënë - E Shtunë: 07:00 - 18:00</p>
+                </div>
+            </div>
+            <div class="footer-social">
+                <a href="#" aria-label="Facebook">f</a>
+                <a href="#" aria-label="Instagram">📷</a>
+                <a href="#" aria-label="WhatsApp">💬</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const toggle = document.querySelector('.mobile-toggle');
+        const nav = document.querySelector('.nav');
+        toggle.addEventListener('click', () => {
+            nav.classList.toggle('open');
+            toggle.classList.toggle('active');
+        });
+    </script>
 </body>
 </html>
